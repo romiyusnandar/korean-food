@@ -42,10 +42,12 @@ const DetailToko = ({ params: { slug } }) => {
       <h2 className="text-xl font-semibold mb-4">Makanan & Minuman</h2>
       <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-4">
         {tokoData.foods.map((item, index) => (
-          <div key={index} className="border p-4 rounded-lg shadow-lg">
-            <img src={item.food_img} alt={item.food_name} className="w-full h-40 object-cover rounded-lg mb-2" />
-            <p className="font-semibold text-center">{item.food_name} - {item.foot_category}</p>
-            <p>Harga: Rp {item.food_cost}</p>
+          <div key={index} className="border rounded-lg shadow-lg">
+            <img src={item.food_img} alt={item.food_name} className="w-full h-40 object-cover rounded-t-lg mb-2" />
+            <div className="p-2">
+              <p className="font-semibold">{item.food_name}</p>
+              <p>Harga: Rp {item.food_cost}</p>
+            </div>
           </div>
         ))}
       </div>
