@@ -1,0 +1,28 @@
+[
+  {
+    "id": 1,
+    "name": "Chago Korean BBQ All You Can Eat",
+    "img": "https://instagram.fbth9-1.fna.fbcdn.net/v/t39.30808-6/408386920_18019820542936222_9062194967490928400_n.jpg?stp=dst-jpg_e35&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgxeDEwNzkuc2RyLmYzMDgwOC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fbth9-1.fna.fbcdn.net&_nc_cat=110&_nc_ohc=pApsJBZt7HUQ7kNvgGQ67V6&_nc_gid=17496da45d4e4fed94ea01898c42e515&edm=AP4sbd4AAAAA&ccb=7-5&ig_cache_key=MzI1MjM0NjM3MjE3OTYwMzk4MQ%3D%3D.3-ccb7-5&oh=00_AYAxoRl_RJVbeiOKpwObYrgBbCNqSHMs-psWWz3kzbCzLA&oe=6703163B&_nc_sid=7a9f4b",
+    "address": "Jl. Muara Sanding no. 99",
+    "contact": [
+      {
+        "whatsapp": "https://api.whatsapp.com/send?phone=62811230683&fbclid=PAZXh0bgNhZW0CMTEAAaYmxt8xqb-zG3y8zYhXW5IOsJSjCuCaasYeEGbByo2lef-xBuqs8Lk6pFw_aem_I5dHSPMqbDQPeZ3wZECjkw",
+        "instagram": "https://www.instagram.com/chago.id/"
+      }
+    ],
+    "foods": [
+      {
+        "food_name": "Kimchi",
+        "food_cost": 10000,
+        "food_img": "/images/kimchi.jpg",
+        "foot_category": "makanan"
+      },
+      {
+        "food_name": "Soju",
+        "food_cost": 10000,
+        "food_img": "/images/soju.jpg",
+        "foot_category": "minuman"
+      }
+    ]
+  }
+]
