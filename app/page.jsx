@@ -29,7 +29,7 @@ const HomePage = () => {
 
   return (
     <>
-      <main className="container mx-auto mt-8">
+      <main className="container mx-auto mt-8 p-4 md:p-0">
         <h1 className="text-3xl font-bold">Selamat Datang di Pencarian Restoran Korea Garut</h1>
         <p className="mt-4 border-b mb-8">Temukan makanan Korea favorit Anda di Garut.</p>
 
