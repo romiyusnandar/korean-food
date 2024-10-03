@@ -42,7 +42,7 @@ const HomePage = () => {
                   <p className="font-bold">{food.food_name}</p>
                   <p className="text-gray-600">Harga: Rp. {food.food_cost}</p>
                   <div className="mt-2 flex-row gap-x-2 items-center hidden md:inline-flex">
-                    <img src={food.toko.img} alt={food.toko.name} className="object-cover w-8 h-8 md:w-10 md:h-10 rounded-full" />
+                    <img src={food.toko.img} alt={food.toko.name} className="object-cover w-8 h-8 md:w-10 md:h-10 border-black border rounded-full" />
                     <p className="text-gray-600">{food.toko.name}</p>
                   </div>
                 </div>

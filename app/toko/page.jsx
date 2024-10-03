@@ -34,7 +34,7 @@ const TokoPage = () => {
                 <img
                   src={toko.img}
                   alt={toko.name}
-                  className="object-cover w-full h-full rounded-full"
+                  className="object-cover w-full h-full rounded-full border border-black"
                 />
               </div>
               <p className="text-xs md:text-lg font-bold mt-4 text-center">{toko.name}</p>
